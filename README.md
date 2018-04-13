@@ -1,10 +1,25 @@
 # Analytics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
-
+create database named 'analyst' and password 'password' which run on port '5432' in postgres
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run 3 terminal with following cmds :-
+1.  npm run client-watch
+2.  npm run server
+3.  ./ngrok 3000
+
+##API's
+request '/list' of type 'get' to see all page visits:-
+following query parameters can be possible:-
+  "userId": "1", (optional)
+  "fromDate": "2018-04-13", (optional)
+  "toDate": "01-01-2019", (optional)
+  "pageUrl": "http://ab3d7c37.ngrok.io/", (optional)
+  "country": "india", (optional)
+  "browserName": "chrome", (optional)
+  "limit": "10", (optional)
+  "skip": "0" (optional)
 
 ## Code scaffolding
 
