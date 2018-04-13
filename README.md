@@ -4,10 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 create database named 'analyst' and password 'password' which run on port '5432' in postgres
 ## Development server
 
-Run 3 terminal with following cmds :-
-1.  npm run client-watch
-2.  npm run server
-3.  ./ngrok 3000
+Run 2 terminal with following cmds :-
+1.  npm start
+2.  ./ngrok 3000
 
 ##API's
 request '/list' of type 'get' to see all page visits:-
